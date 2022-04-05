@@ -15,7 +15,7 @@ def avscToCsv(file) -> None:
 
     # Create a CSV file.
     csv_file = file.replace('.avsc', '.csv')
-    csv_file = csv_file.replace('avro/', 'json/')
+    csv_file = csv_file.replace('avro/', 'csv/')
 
     # Open the CSV file.
     csv_file = open(csv_file, 'w')
