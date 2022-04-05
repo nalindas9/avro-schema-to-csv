@@ -17,6 +17,11 @@ def avscToCsv(file) -> None:
     csv_file = file.replace('.avsc', '.csv')
     csv_file = csv_file.replace('avro/', 'csv/')
 
+    # Check if the CSV file exists, if it does, delete it.
+    if os.path.isfile(csv_file):
+        print('CSV file already exists, hence deleting it')
+        os.remove(csv_file)
+
     # Open the CSV file.
     csv_file = open(csv_file, 'w')
 
