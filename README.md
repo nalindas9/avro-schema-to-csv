@@ -1,3 +1,21 @@
-# avro-schema-to-json
+# avro-schema-to-csv
+[![License:MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/nalindas9/object-detection/blob/master/LICENSE)
 
-https://www.youtube.com/watch?v=2XMkPW_sIGg&list=WL&index=1&t=33s
+## About
+Avro schema to CSV converter.
+
+## Output
+
+https://user-images.githubusercontent.com/44141068/161920566-f87b0fb4-63ff-49e4-a1c8-1a5250c3c073.mp4
+
+## System and library requirements
+
+## How to Run
+1. Clone this repo. <br>
+2. Navigate into the folder `object-detection` <br>
+3. Create and activate [Virtual Environment](https://docs.python.org/3/library/venv.html) <br>
+4. Upgrade pip using `python -m pip install --upgrade pip`.
+5. Install requirements.txt using command `pip install -r requirements.txt`
+6. To run the code, from the terminal, run the command `python3 main.py` <br>
+7. You should see a window pop up. Click on open webcam to start detecting.
+7. To stop detecting, simply click on stop webcam. To shutdown, click on cross topright corner.:)
