@@ -1,0 +1,20 @@
+name,type,doc
+id,"""int""",The unique identifier for the record.
+timestamp,"""long""",Timestamp (datetime) of the record.
+vehicle_id,"""int""",The unique identifier for the vehicle.
+latitude,"""double""",The latitude of the vehicle.
+longitude,"""double""",The longitude of the vehicle.
+speed,"""double""",The speed of the vehicle.
+heading,"""double""",The heading of the vehicle.
+altitude,"""double""",The altitude of the vehicle.
+acceleration,"""double""",The acceleration of the vehicle.
+brake,"""double""",The brake of the vehicle.
+steering,"""double""",The steering of the vehicle.
+gear,"""int""",The gear of the vehicle.
+fuel,"""double""",The fuel of the vehicle.
+fuel_consumption,"""double""",The fuel consumption of the vehicle.
+fuel_capacity,"""double""",The fuel capacity of the vehicle.
+fuel_level,"""double""",The fuel level of the vehicle.
+fuel_range,"""double""",The fuel range of the vehicle.
+fuel_efficiency,"""double""",The fuel efficiency of the vehicle.
+sensor_suite,"{""type"": ""array"", ""items"": {""type"": ""record"", ""name"": ""sensor"", ""namespace"": ""com.example.avro"", ""fields"": [{""type"": ""int"", ""name"": ""id"", ""doc"": ""The unique identifier for the sensor.""}, {""type"": ""string"", ""name"": ""name"", ""doc"": ""The name of the sensor.""}, {""type"": [""null"", ""string""], ""name"": ""output_type"", ""doc"": ""The output type of the sensor.""}], ""doc"": ""A sensor.""}}",The sensor suite of the vehicle.
