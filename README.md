@@ -1,8 +1,8 @@
 # avro-schema-to-csv
-[![License:MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/nalindas9/object-detection/blob/master/LICENSE)
+[![License:MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/nalindas9/avro-schema-to-csv/blob/master/LICENSE)
 
 ## About
-Avro schema to CSV converter.
+Avro schema to CSV converter. PyPi Package can be found [here](https://pypi.org/project/avroSchemaToCsvConvertor/). (Developed and published using setuptools, wheel, twine and tqdm)
 
 ## Output
 
