@@ -9,6 +9,8 @@ Avro schema to CSV converter. PyPi Package can be found [here](https://pypi.org/
 https://user-images.githubusercontent.com/44141068/161920566-f87b0fb4-63ff-49e4-a1c8-1a5250c3c073.mp4
 
 ## System and library requirements
+- avro-python3==1.9.1
+- pycodestyle==2.8.0
 
 ## How to Run
 1. Clone this repo. <br>
