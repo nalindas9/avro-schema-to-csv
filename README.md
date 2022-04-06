@@ -12,10 +12,9 @@ https://user-images.githubusercontent.com/44141068/161920566-f87b0fb4-63ff-49e4-
 
 ## How to Run
 1. Clone this repo. <br>
-2. Navigate into the folder `object-detection` <br>
+2. Navigate into the folder `avro-schema-to-csv` <br>
 3. Create and activate [Virtual Environment](https://docs.python.org/3/library/venv.html) <br>
 4. Upgrade pip using `python -m pip install --upgrade pip`.
 5. Install requirements.txt using command `pip install -r requirements.txt`
-6. To run the code, from the terminal, run the command `python3 main.py` <br>
-7. You should see a window pop up. Click on open webcam to start detecting.
-7. To stop detecting, simply click on stop webcam. To shutdown, click on cross topright corner.:)
+6. To run the code, from the terminal, run the command `python3 main.py --file <path to your .avsc Avro Schema File>` <br>
+7. The converted CSV file is stored in the `csv` folder.
