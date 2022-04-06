@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+avroSchemaToCsv/__init__.py
+avroSchemaToCsv/main.py
+avroSchemaToCsvConvertor.egg-info/PKG-INFO
+avroSchemaToCsvConvertor.egg-info/SOURCES.txt
+avroSchemaToCsvConvertor.egg-info/dependency_links.txt
+avroSchemaToCsvConvertor.egg-info/top_level.txt

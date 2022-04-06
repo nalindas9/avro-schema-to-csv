@@ -1,8 +1,0 @@
-README.md
-setup.py
-avro_schema_to_csv/__init__.py
-avro_schema_to_csv/main.py
-avro_schema_to_csv.egg-info/PKG-INFO
-avro_schema_to_csv.egg-info/SOURCES.txt
-avro_schema_to_csv.egg-info/dependency_links.txt
-avro_schema_to_csv.egg-info/top_level.txt
