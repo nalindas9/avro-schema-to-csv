@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: avro-schema-to-csv
+Version: 0.1.0
+Summary: Convert Avro schema to CSV.
+Home-page: UNKNOWN
+Author: Nalin Das
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

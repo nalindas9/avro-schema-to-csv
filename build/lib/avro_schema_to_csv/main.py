@@ -3,6 +3,7 @@ import avro.io
 import csv
 import json
 import os, sys
+import argparse
 
 def avscToCsv(file) -> None:
     """
@@ -36,3 +37,25 @@ def avscToCsv(file) -> None:
 
     # Print the JSON schema.
     print(json.dumps(schema.to_json(), indent=2))
+
+def main():
+    """
+    Main function.
+    """
+    # Parse the command line arguments.
+    parser = argparse.ArgumentParser(description='Convert Avro schema to CSV.')
+    parser.add_argument('--file', help='Avro schema file.')
+    args = parser.parse_args()
+
+    file = args.file
+    
+    # Check if the file exists.
+    if not os.path.isfile(file):
+        print('File does not exist: {}'.format(file))
+        sys.exit(1)
+
+    # Convert the Avro schema file to a CSV file.
+    avscToCsv(file)
+
+if __name__ == '__main__':
+    main()

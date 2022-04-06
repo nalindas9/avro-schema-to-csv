@@ -1,5 +1,5 @@
 name,type,doc
-id,"""int""",The unique identifier for the record!!!!.
+id,"""int""",The unique identifier for the record.
 timestamp,"""long""",Timestamp (datetime) of the record.
 vehicle_id,"""int""",The unique identifier for the vehicle.
 latitude,"""double""",The latitude of the vehicle.
